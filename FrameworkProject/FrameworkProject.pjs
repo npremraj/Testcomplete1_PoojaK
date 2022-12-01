@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{45B60158-17BB-40E3-A95D-12604B225CA5}">
+	<children>
+		<child name="FrameworkProject" key="{C15AFCFE-73E4-43D5-AED2-9A0B8DF02911}" path="FrameworkProject\FrameworkProject.mds" />
+	</children>
+	<testItems key="{E1263EBA-7E17-4F13-B844-A48ADCDE6C6F}">
+		<children>
+			<testItem key="{C15AFCFE-73E4-43D5-AED2-9A0B8DF02911}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{CACB0FFC-6EFE-462B-909B-239B1236CFD3}" />
+	<analysis key="{C142E210-FEBF-44B2-829B-97E10816C415}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

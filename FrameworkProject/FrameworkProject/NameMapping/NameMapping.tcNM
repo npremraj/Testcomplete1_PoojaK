@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{508D0E18-B2BC-4075-95E0-6409E63B35C3}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{33610E15-AA89-492D-8891-315E83EAF617}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{376E6C67-AE2E-4E4B-BD87-20CED1DF29BC}">
+								<Image FileName="1101339802" Left="0" Top="0" Right="1050" Bottom="543" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageWebOrdersLogin" Key="{180C38CD-DAD7-43CC-95B4-535C0D87C1DB}">
+								<Image FileName="1101339802" Left="8" Top="80" Right="995" Bottom="535" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://secure.smartbearsoftware.com/samples/TestComplete15/WebOrders/Login.aspx" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formAspnetform" Key="{47179687-1705-4C62-8867-5ED7597D0F48}">
+										<Image FileName="1101339802" Left="8" Top="80" Right="978" Bottom="537" />
+										<Selectors>
+											<Selector>
+												<Value Value="#aspnetForm" />
+											</Selector>
+											<Selector>
+												<Value Value="form[@name=&apos;aspnetForm&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="form[contains(., &apos;Username:&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="form[@action=&apos;Login.aspx&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxUsername" Key="{37BBED8F-632C-4B70-901F-E64582EABE21}">
+										<Image FileName="1101339802" Left="433" Top="396" Right="581" Bottom="417" />
+										<TypeInfo Item0="{6CF58223-FA11-400B-8B5D-E1A41A9A80CC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Username:&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#ctl00_MainContent_username" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{A1B63913-0EAD-4D18-8E89-B943D506C9F9}">
+										<Image FileName="310082125" Left="433" Top="421" Right="581" Bottom="442" />
+										<TypeInfo Item0="{6CF58223-FA11-400B-8B5D-E1A41A9A80CC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Password:&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#ctl00_MainContent_password" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbuttonLogin" Key="{50F776F2-565E-4B7C-915D-842DF6261F24}">
+										<Image FileName="1333056966" Left="433" Top="452" Right="516" Bottom="479" />
+										<TypeInfo Item0="{A3861B4B-FD85-48BD-ABF6-BEFBB69EBF47}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#ctl00_MainContent_login_button" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;Login&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;button&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageWebOrders" Key="{78B193FF-9893-42FC-936E-881582CC9241}">
+								<Image FileName="-608086557" Left="0" Top="71" Right="1233" Bottom="680" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://secure.smartbearsoftware.com/samples/testcomplete15/weborders/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formAspnetform" Key="{A07F4DBB-5C0E-4E9A-8DBC-151E6C99A332}">
+										<Image FileName="-608086557" Left="0" Top="71" Right="1216" Bottom="696" />
+										<Selectors>
+											<Selector>
+												<Value Value="#aspnetForm" />
+											</Selector>
+											<Selector>
+												<Value Value="form[@name=&apos;aspnetForm&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="form[contains(., &apos;Web Orders&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="form[@action=&apos;Default.aspx&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCtl00Menu" Key="{844B948B-D9B7-4DB1-8849-2D556EE89C06}">
+										<Image FileName="-608086557" Left="40" Top="195" Right="268" Bottom="331" />
+										<Selectors>
+											<Selector>
+												<Value Value="#ctl00_menu" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;View all orders&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;menu&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkOrder" Key="{A996F502-22BE-49B5-A3FA-9502F4BFCC3D}">
+										<Image FileName="-608086557" Left="40" Top="289" Right="268" Bottom="331" />
+										<TypeInfo Item0="{7C641777-33C4-4A81-BE79-4EE9CFAD898F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//a[.=&apos;%mainMenuItem%&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndChrome_WidgetWin_2" Key="{528E0D00-0692-4B47-929B-03577FCFE10A}">
+								<Image FileName="-470559073" Left="0" Top="0" Right="322" Bottom="271" />
+								<TypeInfo Item0="{F164552B-DB96-4A79-9941-536583400B14}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Chrome_WidgetWin_2" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Save password" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageWebOrders2" Key="{CA3FB4C3-508C-40A0-AC18-650136A2BD98}">
+								<Image FileName="-1601216916" Left="0" Top="71" Right="1233" Bottom="680" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://secure.smartbearsoftware.com/samples/testcomplete15/weborders/Process.aspx" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formAspnetform" Key="{0113C167-F269-4742-8E5F-C05818C10217}">
+										<Image FileName="-1601216916" Left="0" Top="71" Right="1216" Bottom="728" />
+										<Selectors>
+											<Selector>
+												<Value Value="#aspnetForm" />
+											</Selector>
+											<Selector>
+												<Value Value="form[@name=&apos;aspnetForm&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="form[contains(., &apos;Web Orders&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="form[@action=&apos;Process.aspx&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCtl00Menu" Key="{7E5088BF-2411-45CC-A92D-DFA0C3A48E08}">
+										<Image FileName="-1601216916" Left="40" Top="195" Right="268" Bottom="331" />
+										<Selectors>
+											<Selector>
+												<Value Value="#ctl00_menu" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;View all orders&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;menu&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkViewAllOrders" Key="{25BF402F-DF2B-44A9-9B0D-F6EA150BADD8}">
+										<Image FileName="-1601216916" Left="40" Top="205" Right="268" Bottom="247" />
+										<TypeInfo Item0="{7C641777-33C4-4A81-BE79-4EE9CFAD898F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;View all orders&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageWebOrders3" Key="{7C9B2C24-1C46-4465-BC99-BEF3896FCB36}">
+								<Image FileName="2039117452" Left="0" Top="71" Right="1233" Bottom="680" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://secure.smartbearsoftware.com/samples/testcomplete15/weborders/Default.aspx" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formAspnetform" Key="{0711838E-4C10-4B52-A4A9-5B0C5E81EC17}">
+										<Image FileName="2039117452" Left="0" Top="71" Right="1216" Bottom="696" />
+										<Selectors>
+											<Selector>
+												<Value Value="#aspnetForm" />
+											</Selector>
+											<Selector>
+												<Value Value="form[@name=&apos;aspnetForm&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="form[contains(., &apos;Web Orders&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="form[@action=&apos;Default.aspx&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkCtl00MaincontentBtncheckall" Key="{85C19C10-AB10-4ABF-8B3E-8343EC2E63D7}">
+										<Image FileName="2039117452" Left="298" Top="210" Right="381" Bottom="237" />
+										<TypeInfo Item0="{7C641777-33C4-4A81-BE79-4EE9CFAD898F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#ctl00_MainContent_btnCheckAll" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;Check All&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{33610E15-AA89-492D-8891-315E83EAF617}">
+			<Child Name="BrowserWindow" Owner="{376E6C67-AE2E-4E4B-BD87-20CED1DF29BC}" />
+			<Child Name="pageWebOrdersLogin" Owner="{180C38CD-DAD7-43CC-95B4-535C0D87C1DB}">
+				<Child Name="formAspnetform" Owner="{47179687-1705-4C62-8867-5ED7597D0F48}">
+					<Child Name="textboxUsername" Owner="{37BBED8F-632C-4B70-901F-E64582EABE21}" />
+					<Child Name="passwordboxPassword" Owner="{A1B63913-0EAD-4D18-8E89-B943D506C9F9}" />
+					<Child Name="submitbuttonLogin" Owner="{50F776F2-565E-4B7C-915D-842DF6261F24}" />
+				</Child>
+			</Child>
+			<Child Name="pageWebOrders" Owner="{78B193FF-9893-42FC-936E-881582CC9241}">
+				<Child Name="formAspnetform" Owner="{A07F4DBB-5C0E-4E9A-8DBC-151E6C99A332}">
+					<Child Name="textnodeCtl00Menu" Owner="{844B948B-D9B7-4DB1-8849-2D556EE89C06}">
+						<Child Name="linkOrder" Owner="{A996F502-22BE-49B5-A3FA-9502F4BFCC3D}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="wndChrome_WidgetWin_2" Owner="{528E0D00-0692-4B47-929B-03577FCFE10A}" />
+			<Child Name="pageWebOrders2" Owner="{CA3FB4C3-508C-40A0-AC18-650136A2BD98}">
+				<Child Name="formAspnetform" Owner="{0113C167-F269-4742-8E5F-C05818C10217}">
+					<Child Name="textnodeCtl00Menu" Owner="{7E5088BF-2411-45CC-A92D-DFA0C3A48E08}">
+						<Child Name="linkViewAllOrders" Owner="{25BF402F-DF2B-44A9-9B0D-F6EA150BADD8}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageWebOrders3" Owner="{7C9B2C24-1C46-4465-BC99-BEF3896FCB36}">
+				<Child Name="formAspnetform" Owner="{0711838E-4C10-4B52-A4A9-5B0C5E81EC17}">
+					<Child Name="linkCtl00MaincontentBtncheckall" Owner="{85C19C10-AB10-4ABF-8B3E-8343EC2E63D7}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

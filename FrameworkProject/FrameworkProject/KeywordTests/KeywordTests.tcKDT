@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<folder name="Components">
+			<child name="mainMenuNav" key="{AB343FB8-2BD9-4198-8C2D-8226829F7019}" path="mainMenuNav.tcKDTest" />
+		</folder>
+		<folder name="Pages">
+			<folder name="BasePage" />
+			<folder name="PageLogin">
+				<child name="Login" key="{64B3AB45-6D2D-40EE-AFA5-00C1BA0D6347}" path="Login.tcKDTest" />
+			</folder>
+			<folder name="PageOrder">
+				<child name="PageOrderNavigateTo" key="{36CB5B42-311C-4F71-9AC3-3C19E2B8E290}" path="PageOrderNavigateTo.tcKDTest" />
+			</folder>
+			<folder name="PageViewAllOrders">
+				<child name="PageViewAllOrdersNavigateTo" key="{EC7EBF27-7A26-49AE-9C71-DCA26F56352B}" path="PageViewAllOrdersNavigateTo.tcKDTest" />
+				<child name="CheckAll" key="{5C0CAAE0-4AA9-4C42-8E80-713CB7806F20}" path="CheckAll.tcKDTest" />
+			</folder>
+			<folder name="PageViewAllProducts" />
+		</folder>
+		<folder name="Tests" />
+		<folder name="UtilBrowser">
+			<child name="StartEdge" key="{7CF5C7A7-F71C-4BDF-9E57-F48862FDE148}" path="StartEdge.tcKDTest" />
+			<child name="NavEdge" key="{1F4B298D-5119-4C0A-BCCA-13B94ED8BABD}" path="NavEdge.tcKDTest" />
+			<child name="CloseEdge" key="{C87F0FB2-A2F4-4773-AE56-FB2A7FD57108}" path="CloseEdge.tcKDTest" />
+		</folder>
+		<folder name="UtilWebBrowser" />
+		<child name="Test1" key="{0725228D-D50C-4E13-806E-1CDA150053C5}" path="Test1.tcKDTest" />
+	</children>
+</Root>
